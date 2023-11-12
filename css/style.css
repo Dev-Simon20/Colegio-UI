@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  padding: 1em 0;
+  background-color: #e7f2ed;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.header-ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 50px;
+}
+.header-ul-link {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+.header-ul-link a {
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+.header-ul-link h1 {
+  width: 100%;
+}
+
+#title {
+  width: 260px;
+  text-align: center;
+}
+
+#rol {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  width: 100%;
+  background-color: #2E3B6A;
+  border-radius: 8px;
+  vertical-align: bottom;
+  color: white;
+}
+
+.main {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-sect {
+  padding-bottom: 1em;
+  width: 100%;
+  padding-top: 50px;
+  background-color: #e7f2ed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
+}
+.main-sect-coment {
+  width: 40%;
+  height: 400px;
+  align-self: center;
+}
+.main-sect-coment p {
+  font-size: 2.9em;
+}
+.main-sect-imag {
+  height: 90%;
+}
+.main-sect-imag img {
+  height: 100%;
+  margin-top: -40px;
+}
+
+#matri {
+  margin-top: 1em;
+  margin-left: 1em;
+  padding: 0.2em;
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
+  font-size: 2em;
+  background-color: #5AD1A4;
+  border-radius: 8px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
