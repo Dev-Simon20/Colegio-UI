@@ -15,9 +15,9 @@
           <li class="header-ul-link" id="title"><h1>Colegio Pitagoras</h1></li>
           <li class="header-ul-link"><a href="#">Plana Docente</a></li>
           <li class="header-ul-link"> <a href="#">Blog</a></li>
-          <li class="header-ul-link">
+          <li class="header-ul-link des">
              <p id="rol">Iniciar Sessión</p>
-            <ul >
+            <ul>
               <li><a href="./Docente/docente.html">Docente</a></li>
               <li><a href="./Alumno/alumno.html">Alumno</a></li>
               <li><a href="./Admin/admin.html">Admin</a></li>
@@ -42,5 +42,17 @@
 
 
     </main>
+    <script>
+      document.getElementById('rol').addEventListener('click', function() {
+        // Obtén el elemento padre <li>
+        var padreLi = this.closest('li');
+  
+        // Alternar las clases 'active' y 'des' en el elemento padre
+        if (padreLi) {
+          padreLi.classList.toggle('active');
+          padreLi.classList.toggle('des');
+        }
+      });
+    </script>
   </body>
 </html>

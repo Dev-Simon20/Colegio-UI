@@ -68,7 +68,7 @@
             height: 400px;
             align-self: center;
             p{
-                font-size: 2.9em;
+                font-size: 2.3em;
             }
         }
         &-imag{
@@ -91,4 +91,30 @@
     background-color: #5AD1A4;
     border-radius: 8px;
     color: white;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    ul{
+        text-decoration: none;
+        list-style: none;
+
+        display: inline-block;
+        li{
+            margin-top: 5px;
+           background-color: #2E3B6A;
+           border-radius: 5px;
+           a{
+            color: white;
+           }
+        }
+    }
+}
+
+.des{
+    ul{
+        display: none;
+    }
 }

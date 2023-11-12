@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .header {
+    padding: 1em 0;
+    background-color: #e7f2ed;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    &-ul {
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      height: 50px;
+      &-link {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        a {
+          text-align: center;
+          width: 100%;
+          text-decoration: none;
+          color: black;
+        }
+        h1 {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #title {
+    width: 260px;
+    text-align: center;
+  }
+  #rol {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-color: #2e3b6a;
+    border-radius: 8px;
+    vertical-align: bottom;
+    color: white;
+  }
+  #nUser{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-color: #2e3b6a;
+    border-radius: 8px;
+    vertical-align: bottom;
+    color: white;
+  }
+  #lAlu{
+    width: 200px;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 120px;
+    &-tipo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: flex-start;
+      background-color: #2e3b6a;
+      width: 250px;
+      height: 50px;
+      margin-left: 50px;
+      color: white;
+      border-radius: 10px;
+    }
+    &-notas{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      width: 80%;
+      height: 120px;
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+  
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+  
+      th {
+        background-color: #f2f2f2;
+      }
+  
+      }
+    &-nt{
+        margin-top: 20px;
+        width: 60%;
+        height: 100px;
+        background-color: rgb(210, 206, 206);
+        border-radius: 25px;
+    }
+    }

@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .header {
+    padding: 1em 0;
+    background-color: #e7f2ed;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    &-ul {
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      height: 50px;
+      &-link {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        a {
+          text-align: center;
+          width: 100%;
+          text-decoration: none;
+          color: black;
+        }
+        h1 {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #title {
+    width: 260px;
+    text-align: center;
+  }
+  #rol {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-color: #2e3b6a;
+    border-radius: 8px;
+    vertical-align: bottom;
+    color: white;
+  }
+  #nUser{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-color: #2e3b6a;
+    border-radius: 8px;
+    vertical-align: bottom;
+    color: white;
+  }
+  #lAlu{
+    width: 200px;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 120px;
+    &-tipo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: flex-start;
+      background-color: #2e3b6a;
+      width: 200px;
+      height: 50px;
+      margin-left: 50px;
+      color: white;
+      border-radius: 10px;
+    }
+    &-cursos{
+      width: 80%;
+      height: 100vh;
+      margin-top: 1em;
+      padding-top: 2em;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      &-materia{
+        width: 30%;
+        min-width: 250px;
+        height: 150px;
+        background-color: rgb(255, 208, 127);
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 1em;
+        p{
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  
