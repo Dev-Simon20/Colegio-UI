@@ -71,53 +71,45 @@
 .main {
   width: 100%;
   display: flex;
-  justify-content: center;
-  height: 100vh;
-  background-color: #EEFFFB;
-  padding-top: 90px;
-}
-.main-tar {
-  margin-top: 50px;
-  width: 400px;
-  height: 400px;
-  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background: linear-gradient(180deg, rgba(127, 149, 229, 0.6901960784) 0%, #FFFFFF 19%);
-  box-shadow: 2px 7px 22px 0px rgba(194, 210, 207, 0.84);
-  border-radius: 16px;
+  height: 100vh;
+  padding-top: 120px;
 }
-.main-tar-icon {
-  font-size: 5em;
-  color: rgba(85, 103, 169, 0.6901960784);
-}
-.main-tar-form {
-  margin-top: 25px;
+.main-tipo {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  background-color: #2e3b6a;
+  width: 200px;
+  height: 50px;
+  margin-left: 50px;
+  color: white;
+  border-radius: 10px;
+}
+.main-cursos {
+  width: 80%;
+  height: 100vh;
+  margin-top: 1em;
+  padding-top: 2em;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 50%;
-  height: 120px;
 }
-.main-tar-form label {
-  font-weight: bold;
-}
-.main-tar-form input {
-  padding-left: 0.5em;
-}
-.main-tar-but {
-  text-align: center;
-  margin-top: 20px;
+.main-cursos-materia {
   width: 30%;
-  border: none;
-  color: inherit;
-  cursor: pointer;
-  font: inherit;
-  outline: none;
-  padding: 0;
-  background-color: rgba(127, 149, 229, 0.6901960784);
-  height: 30px;
-  border-radius: 8px;
-  width: 50%;
+  min-width: 250px;
+  height: 150px;
+  background-color: rgb(255, 208, 127);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1em;
+}
+.main-cursos-materia p {
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */

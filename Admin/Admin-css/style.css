@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  outline: 1px solid red;
 }
 
 .header {
@@ -64,7 +65,7 @@
   color: white;
 }
 
-#lAlu {
+#lUser {
   width: 200px;
 }
 
@@ -84,13 +85,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, rgba(127, 149, 229, 0.6901960784) 0%, #FFFFFF 19%);
+  background: linear-gradient(180deg, rgba(90, 209, 164, 0.8117647059) 0%, #FFFFFF 19%);
   box-shadow: 2px 7px 22px 0px rgba(194, 210, 207, 0.84);
   border-radius: 16px;
 }
 .main-tar-icon {
   font-size: 5em;
-  color: rgba(85, 103, 169, 0.6901960784);
+  color: rgba(34, 215, 145, 0.8117647059);
 }
 .main-tar-form {
   margin-top: 25px;
@@ -116,7 +117,7 @@
   font: inherit;
   outline: none;
   padding: 0;
-  background-color: rgba(127, 149, 229, 0.6901960784);
+  background-color: rgba(90, 209, 164, 0.8117647059);
   height: 30px;
   border-radius: 8px;
   width: 50%;

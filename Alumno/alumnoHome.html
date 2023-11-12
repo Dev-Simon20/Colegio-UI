@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitagoras-Login</title>
-    <link rel="stylesheet" href="./Admin-css/style.css">
+    <link rel="stylesheet" href="./Home-css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -16,8 +16,8 @@
             <li class="header-ul-link" id="title"><a href="../index.html"><h1>Colegio Pitagoras</h1></a></li>
             <li class="header-ul-link"><a href="#">Plana Docente</a></li>
             <li class="header-ul-link"> <a href="#">Blog</a></li>
-            <li class="header-ul-link">
-               <p id="rol">Iniciar Sessión</p>
+            <li class="header-ul-link" id="lAlu">
+               <p id="nUser">Simon Conterras Hugo</p>
               <ul style="display: none;">
                 <li><a href="./Docente/docente.html">Docente</a></li>
                 <li><a href="./Alumno/alumno.html">Alumno</a></li>
@@ -26,20 +26,19 @@
             </li>
         </ul>
       </header>
-      <main class="main">
-         <section class="main-tar">
-          <i class="fa-solid fa-user-gear main-tar-icon"></i>
-            <form class="main-tar-form" action="">
-                <label for="">Usuario</label>
-                <input type="text">
-                <label for="">Contraseña</label>
-                <input type="password">
-            </form>
-            <input onclick="window.location.href='./adminHome.html';" class="main-tar-but" type="button" value="Ingresar como Admin">
 
-         </section>
+      <main class="main">
+        <p class="main-tipo">Logeado como Alumno</p>
+        <section class="main-cursos">
+            <div class="main-cursos-materia"><p>Ciencia tecnologia y Ambiente</p></div>
+            <div class="main-cursos-materia"><p>Ciencia tecnologia y Ambiente</p></div>
+            <div class="main-cursos-materia"><p>Ciencia tecnologia y Ambiente</p></div>
+            <div class="main-cursos-materia"><p>Ciencia tecnologia y Ambiente</p></div>
+            <div class="main-cursos-materia"><p>Ciencia tecnologia y Ambiente</p></div>
+            <div class="main-cursos-materia"><p>Ciencia tecnologia y Ambiente</p></div>
+            <div class="main-cursos-materia"><p>Ciencia tecnologia y Ambiente</p></div>
+        </section>
       </main>
-      <script src="./admin.js"></script>
      
 </body>
 </html>
